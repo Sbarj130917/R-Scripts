@@ -1,4 +1,4 @@
-load('/Users/chuqinli/Documents/KDD_2018Fall/05PatternMining/titanic.raw.rdata')
+load('/titanic.raw.rdata')
 str(titanic.raw)
 
 install.packages("arules")
