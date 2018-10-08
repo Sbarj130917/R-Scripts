@@ -1,6 +1,6 @@
 install.packages("tm")
 library(tm)
-setwd("/Users/xniu2/Desktop/RData")
+setwd("https://raw.githubusercontent.com/ShailyBarjatya/R-Scripts/master/Text_WordAssociation_Pattern-Mining/")
 text_corpus<-Corpus(DirSource("HealthNews"))
 writeLines(as.character(text_corpus[[1]]))
 text_corpus <- tm_map(text_corpus, stripWhitespace)
