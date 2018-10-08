@@ -3,7 +3,7 @@ age <- c(23, 16, NA)
 mean(age)
 mean(age, na.rm = TRUE)
 
-setwd("https://raw.githubusercontent.com/ShailyBarjatya/R-Scripts/master/Data_cleaning_R/Exam%20Anxiety.dat")
+setwd("https://raw.githubusercontent.com/ShailyBarjatya/R-Scripts/master/Data_cleaning_R")
 person<-read.delim("person",header=TRUE)
 complete.cases(person)
 
